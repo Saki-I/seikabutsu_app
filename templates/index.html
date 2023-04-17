@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Number Classifier</title>
+    <link rel="stylesheet" href="./static/stylesheet.css">
+</head>
+<body>
+    <header>   
+        <img class="header_img" src="https://aidemyexstorage.blob.core.windows.net/aidemycontents/1621500180546399.png" alt="Aidemy">
+        <a class="header-logo" href="#">Number Classifier</a>
+    </header>
+
+    <div class="main">    
+        <h2> AIが送信された画像の数字を識別するよ</h2>
+        <p>画像を送信してね</p>
+        <form method="POST" enctype="multipart/form-data">
+            <input class="file_choose" type="file" name="file">
+            <input class="btn" value="submit!" type="submit">
+        </form>
+        <div class="answer">{{answer}}</div>
+    </div>
+
+    <footer>
+        <img class="footer_img" src="https://1.bp.blogspot.com/-9jufP_s7RQk/X9GX8hoyYdI/AAAAAAABcrU/-2qUflYQuNk2kAdcro0FtD_k21Mb67bwACNcBGAsYHQ/s400/computer_tokui_boy.png" alt="Susie Ninshiki">
+        <small>&copy; 2023 Susie Ninshiki, inc.</small>   
+    </footer>
+</body>
+</html>
