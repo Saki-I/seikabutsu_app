@@ -1,5 +1,4 @@
 pillow
 flask
 tensorflow
-pickle
 numpy
