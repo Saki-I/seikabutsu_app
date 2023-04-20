@@ -2,4 +2,4 @@ pillow
 flask
 tensorflow
 numpy
-sklearn
+scikit-learn
